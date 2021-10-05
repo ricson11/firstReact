@@ -1,0 +1,114 @@
+body{
+  margin:0;
+  padding:0;
+  background: ghostwhite;
+}
+
+.banner{
+  min-height:35vh;
+  background: green;
+  padding:10px;
+}
+.mediaImages{
+  height:150px;
+  width:200px;
+}
+.btn{
+  width:100%;
+}
+.btn:hover{
+  background: red;
+}
+.card{
+  background: ghostwhite;
+  margin:2px;
+  width:200px;
+  height:200px;
+}
+.footer{
+   min-height:5vh;
+   padding:5px;
+}
+.footer p{
+  padding-top:5em;
+}
+.postImage{
+  width:200px;
+  height:200px;
+}
+
+
+
+.paginationBttns{
+  width: 80%;
+  height:40px;
+  list-style: none;
+  display: flex;
+  color: blue;
+  cursor: pointer;
+
+}
+
+.paginationBttns a{
+  padding:10px;
+  margin:8px;
+  border-radius: 5px;
+  border: 1px solid blue;
+  color: blue;
+  cursor: pointer;
+  text-decoration: none;
+}
+
+.paginationBttns a:hover{
+  color: white;
+  background-color: blue;
+}
+
+.paginationActive {
+  color: white;
+ 
+
+}
+
+.paginationActive a {
+  
+  background-color: blue;
+}
+.paginationDisabled a{
+  color: grey;
+  background-color: grey;
+}
+
+
+
+@media screen and (max-width:570px) {
+  .mediaImages{
+    height:150px;
+    width:180px;
+    padding-right:10px;
+  
+  }
+
+  
+.paginationBttns{
+ 
+  list-style: none;
+  display: flex;
+  color: blue;
+  cursor: pointer;
+ 
+  
+
+}
+
+.paginationBttns a{
+  
+  margin:2px;
+  border-radius: 5px;
+  border: 1px solid blue;
+  color: blue;
+  cursor: pointer;
+  text-decoration: none;
+}
+  
+}
